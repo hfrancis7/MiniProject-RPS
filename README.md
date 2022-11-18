@@ -4,4 +4,4 @@ Simple Javascript rock paper scissors game. <br>
 Enter "r, p, or s" and play against computer. Tracks wins, losses, and ties.
 
 ## Live Link
-TBA
+https://hfrancis7.github.io/MiniProject-RPS/
