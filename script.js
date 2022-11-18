@@ -2,7 +2,7 @@ var wins = 0;
 var losses = 0;
 var ties = 0;
 
-while(true){
+function rps(){
     let input = window.prompt("Let's play RPS! Please type r, p, or s.");
 
     var cpu = Math.floor(Math.random() * 3);
@@ -46,5 +46,10 @@ while(true){
         window.alert("That's not a valid option!");
     }
 
-    window.alert("Wins: " + wins + ", Losses: " + losses);
+    let play = window.confirm("Wins: " + wins + ", Losses: " + losses + ".\n Do you want to play again?");
+    if(play){
+        rps();
+    }
 }
+
+rps();
